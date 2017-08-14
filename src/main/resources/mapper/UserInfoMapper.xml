@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.three.mapper.UserInfoMapper" >
+	<resultMap id="BaseResultMap" type="com.example.three.bean.entity.UserInfo" >
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="user_name" property="username" />
+		<result column="pass_word" property="password" />
+		<result column="salt" property="salt" />
+		<result column="state" property="state" />
+	</resultMap>
+
+	<select id="findByUsername" resultMap="BaseResultMap">
+		select
+		*
+		from
+		user_info
+		where
+		user_name = #{username}
+	</select>
+</mapper>
