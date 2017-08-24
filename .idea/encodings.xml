@@ -2,5 +2,39 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/admin.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/amazeui.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/amazeui.jqgrid.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/amazeui.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/app.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/component.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/core.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/font-awesome.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/index.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/menu.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/page" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/FontAwesome.otf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.eot" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.svg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.ttf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.woff" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.woff2" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-10.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-3.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-4.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-5.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bg1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/inform.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/rember.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/search.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/amazeui.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/app.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/blockUI.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/charts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.0.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" charset="GBK" />
   </component>
 </project>

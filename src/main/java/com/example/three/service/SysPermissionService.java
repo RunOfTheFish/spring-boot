@@ -19,4 +19,5 @@ public class SysPermissionService {
 	public List<SysPermission> getSysPermissionListByRoleId(String roleId) {
 		return sysPermissionMapper.getSysPermissionListByRoleId(roleId);
 	}
+
 }

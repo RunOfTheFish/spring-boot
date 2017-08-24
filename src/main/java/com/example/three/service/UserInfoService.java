@@ -17,4 +17,5 @@ public class UserInfoService {
 	public UserInfo findByUsername(String username) {
 		return userInfoMapper.findByUsername(username);
 	}
+
 }
