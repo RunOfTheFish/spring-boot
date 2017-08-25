@@ -17,7 +17,7 @@ public class UserInfoController {
 	 * @return
 	 */
 	@RequestMapping("/userList")
-	@RequiresPermissions("userInfo:view")//权限管理;
+	@RequiresPermissions("userInfo:view")//权限管理
 	public String userInfo(){
 		return "userInfo";
 	}
@@ -27,7 +27,7 @@ public class UserInfoController {
 	 * @return
 	 */
 	@RequestMapping("/userAdd")
-	@RequiresPermissions("userInfo:add")//权限管理;
+	@RequiresPermissions("userInfo:add")
 	public String userInfoAdd(){
 		return "userInfoAdd";
 	}

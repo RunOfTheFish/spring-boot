@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-<mapper namespace="com.example.three.mapper.UserInfoMapper"> 
-  <select id="findByUsername" resultType="com.example.three.bean.entity.UserInfo">
-    <!--added by pn-plugin-->select `roleList`, `state`, `salt`, `password`, `name`, `username`, `flag`, `updateTime`, `updateBy`, `createTime`, `createBy`, `id` from PN_UserInfoMap where `username` = #{username} order by id ASC
-  </select>
-</mapper>
