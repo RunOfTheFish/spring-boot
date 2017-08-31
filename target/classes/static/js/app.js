@@ -135,7 +135,7 @@ function($) {
 
 
 //main app module
- function($) {
+/* function($) {
     "use strict";
 
     var App = function() {
@@ -187,15 +187,15 @@ function($) {
 function($) {
     "use strict";
     $.App.init();
-}(window.jQuery);
+}(window.jQuery);*/
 
 
 
 /* ------------ some utility functions ----------------------- */
 //this full screen
-var toggle_fullscreen = function () {
+/*var toggle_fullscreen = function () {
 
-}
+}*/
 
 function executeFunctionByName(functionName, context /*, args */) {
   var args = [].slice.call(arguments).splice(2);

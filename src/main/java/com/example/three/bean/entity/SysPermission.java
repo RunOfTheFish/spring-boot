@@ -1,13 +1,17 @@
 package com.example.three.bean.entity;
 
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableName;
+
 import java.util.List;
 
 /**
  * Created by admin on 2017/8/11.
  */
-public class SysPermission extends BaseEntity implements Serializable {
+@TableName("sys_permission")
+public class SysPermission extends BaseEntity<SysPermission> {
 
+	private static final long serialVersionUID = 4132222527043781196L;
 	//名称.
 	private String name;
 	//资源类型，[menu|button]
@@ -21,6 +25,7 @@ public class SysPermission extends BaseEntity implements Serializable {
 	//父编号列表
 	private String parentIds;
 	private Boolean available = Boolean.FALSE;
+	@TableField(exist = false)
 	private List<SysRole> roles;
 
 	public String getName() {
@@ -86,4 +91,5 @@ public class SysPermission extends BaseEntity implements Serializable {
 	public void setRoles(List<SysRole> roles) {
 		this.roles = roles;
 	}
+
 }

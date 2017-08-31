@@ -8,6 +8,11 @@
 		<result column="pass_word" property="password" />
 		<result column="salt" property="salt" />
 		<result column="state" property="state" />
+		<result column="create_by" property="createBy" />
+		<result column="create_time" property="createTime" />
+		<result column="update_by" property="updateBy" />
+		<result column="update_time" property="updateTime" />
+		<result column="flag" property="flag" />
 	</resultMap>
 
 	<select id="findByUsername" resultMap="BaseResultMap">
@@ -17,5 +22,14 @@
 		user_info
 		where
 		user_name = #{username}
+	</select>
+
+	<select id="selectUserList" resultMap="BaseResultMap">
+		select
+		*
+		from
+		user_info
+		where
+		flag = '1'
 	</select>
 </mapper>

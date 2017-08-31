@@ -1,24 +1,36 @@
 package com.example.three.bean.entity;
 
+import com.baomidou.mybatisplus.activerecord.Model;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.enums.FieldFill;
+
+import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Created by admin on 2017/8/10.
+ * Created by admin on 2017/8/28.
  */
-public class BaseEntity {
+public class BaseEntity <T extends Model> extends Model<T> {
 
-	private String id;
+	@TableId
+	private Long id;
+	@TableField(value = "create_by", fill = FieldFill.INSERT)
 	private String createBy;
+	@TableField(value = "create_time", fill = FieldFill.INSERT)
 	private Date createTime;
+	@TableField(value = "update_by", fill = FieldFill.UPDATE)
 	private String updateBy;
+	@TableField(value = "update_time", fill = FieldFill.UPDATE)
 	private Date updateTime;
+	@TableField(value = "flag", fill = FieldFill.INSERT)
 	private Integer flag;
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -60,5 +72,10 @@ public class BaseEntity {
 
 	public void setFlag(Integer flag) {
 		this.flag = flag;
+	}
+
+	@Override
+	protected Serializable pkVal() {
+		return this.id;
 	}
 }

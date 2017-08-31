@@ -16,7 +16,7 @@ public class SysPermissionService {
 	@Autowired
 	private SysPermissionMapper sysPermissionMapper;
 
-	public List<SysPermission> getSysPermissionListByRoleId(String roleId) {
+	public List<SysPermission> getSysPermissionListByRoleId(Long roleId) {
 		return sysPermissionMapper.getSysPermissionListByRoleId(roleId);
 	}
 

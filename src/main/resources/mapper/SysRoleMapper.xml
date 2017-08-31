@@ -3,13 +3,14 @@
 <mapper namespace="com.example.three.mapper.SysRoleMapper" >
 	<resultMap id="BaseResultMap" type="com.example.three.bean.entity.SysRole" >
 		<id column="id" property="id" />
-		<result column="name" property="name" />
-		<result column="resource_type" property="resourceType" />
-		<result column="url" property="url" />
-		<result column="permission" property="permission" />
-		<result column="parent_id" property="parentId" />
-		<result column="parent_ids" property="parentIds" />
+		<result column="role" property="role" />
+		<result column="description" property="description" />
 		<result column="available" property="available" />
+		<result column="create_by" property="createBy" />
+		<result column="create_time" property="createTime" />
+		<result column="update_by" property="updateBy" />
+		<result column="update_time" property="updateTime" />
+		<result column="flag" property="flag" />
 	</resultMap>
 
 	<select id="getSysRoleListByUserId" resultMap="BaseResultMap">

@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 /**
@@ -21,6 +22,7 @@ public class LoginController {
 
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request, Map<String, Object> map) throws Exception{
+
 		// 登录失败从request中获取shiro处理的异常信息。
 		// shiroLoginFailure:就是shiro异常类的全类名.
 		String exception = (String) request.getAttribute("shiroLoginFailure");
