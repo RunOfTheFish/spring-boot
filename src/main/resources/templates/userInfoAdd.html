@@ -126,22 +126,22 @@
                                 <legend>用户信息</legend>
                                 <div class="am-form-group">
                                     <label for="doc-vld-name-2">登录账号：</label>
-                                    <input type="text" id="doc-vld-username-2" name="username" minlength="5" placeholder="输入登录账号（至少 5 个字符）" required/>
+                                    <input type="text" id="doc-vld-username-2" name="username" minlength="5" value="${user.username}}" placeholder="输入登录账号（至少 5 个字符）" required/>
                                 </div>
 
                                 <div class="am-form-group">
                                     <label for="doc-vld-name-2">用户名：</label>
-                                    <input type="text" id="doc-vld-name-2" minlength="5" name="name" placeholder="输入用户名（至少 5 个字符）" required/>
+                                    <input type="text" id="doc-vld-name-2" minlength="5" name="name" value="${user.name}" placeholder="输入用户名（至少 5 个字符）" required/>
                                 </div>
 
                                 <div class="am-form-group">
                                     <label for="doc-ipt-pwd-2">密码</label>
-                                    <input type="password" id="doc-ipt-pwd-2" minlength="6" name="password" placeholder="设置一个密码吧（至少 6 个字符）" required/>
+                                    <input type="password" id="doc-ipt-pwd-2" minlength="6" name="password" value="${user.password}" placeholder="设置一个密码吧（至少 6 个字符）" required/>
                                 </div>
 
                                 <div class="am-form-group">
                                     <label for="doc-ipt-pwd-3">确认密码</label>
-                                    <input type="password" id="doc-ipt-pwd-3" placeholder="输入确认密码" data-equal-to="#doc-ipt-pwd-2" required/>
+                                    <input type="password" id="doc-ipt-pwd-3" value="${user.password}" placeholder="输入确认密码" data-equal-to="#doc-ipt-pwd-2" required/>
                                 </div>
 
                                 <div class="am-form-group">
@@ -151,7 +151,7 @@
                                     </label>-->
 
                                     <label class="am-checkbox-inline" th:each="role:${roleList}">
-                                        <input type="checkbox" th:value="${role.id}" th:text="${role.description}" th:name="roles" required />
+                                        <input type="checkbox" th:value="${role.id}" th:text="${role.description}" th:name="roles" th:check required />
                                     </label>
 
                                 </div>
