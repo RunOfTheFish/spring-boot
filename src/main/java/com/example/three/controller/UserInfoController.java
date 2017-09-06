@@ -1,6 +1,7 @@
 package com.example.three.controller;
 
 import com.baomidou.mybatisplus.plugins.Page;
+import com.example.three.bean.entity.SysRole;
 import com.example.three.bean.entity.UserInfo;
 import com.example.three.service.SysRoleService;
 import com.example.three.service.UserInfoService;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by admin on 2017/8/11.
@@ -55,15 +58,32 @@ public class UserInfoController {
 
 	/**
 	 * 用户编辑
-	 * @param model
-	 * @param id
+	 *
 	 * @return
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public String userInfoRevise(Model model, @PathVariable(value = "id") long id) {
 
-		model.addAttribute("user", userInfoService.userInfoRevise(id));
-		model.addAttribute("roleList", sysRoleService.selectRoleList());
+		UserInfo user = userInfoService.userInfoRevise(id);
+		model.addAttribute("user", user);
+
+		List<SysRole> sysRoles = user.getRoleList();
+
+		List<Long> ids = new ArrayList<>();
+
+		for (SysRole role : sysRoles) {
+			ids.add(role.getId());
+		}
+
+		List<SysRole> roleList = sysRoleService.selectRoleList();
+
+		for (SysRole role : roleList) {
+			if (ids.contains(role.getId())) {
+				role.setChecked(true);
+			}
+		}
+
+		model.addAttribute("roleList", roleList);
 		return "userInfoAdd";
 	}
 

@@ -24,7 +24,8 @@ public class SysRole extends BaseEntity<SysRole> {
 	// 用户 - 角色关系定义;
 	@TableField(exist = false)
 	private List<UserInfo> userInfos;// 一个角色对应多个用户
-
+	@TableField(exist = false)
+	private boolean checked;
 
 	public String getRole() {
 		return role;
@@ -66,4 +67,11 @@ public class SysRole extends BaseEntity<SysRole> {
 		this.userInfos = userInfos;
 	}
 
+	public boolean isChecked() {
+		return checked;
+	}
+
+	public void setChecked(boolean checked) {
+		this.checked = checked;
+	}
 }
