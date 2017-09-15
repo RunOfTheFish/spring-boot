@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +7,87 @@
     <meta name="keywords" content="">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Amaze UI Examples</title>
+    <title>SuperProduct</title>
+
+    <!-- Set render engine for 360 browser -->
     <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="stylesheet" href="css/amazeui.min.css">
-    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="icon" type="image/png" href="new-login/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="new-login/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="new-login/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="new-login/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="new-login/css/amazeui.min.css">
+    <link rel="stylesheet" href="new-login/css/app.css">
 </head>
 <body>
-<div class="am-g myapp-login">
-    <div class="myapp-login-bg">
-        <div data-am-widget="tabs"
-             class="am-tabs am-tabs-d2"
-                >
-            <ul class="am-tabs-nav am-cf">
-                <li class="am-active"><a href="[data-tab-panel-0]">SIGN IN</a></li>
-                <li class=""><a href="[data-tab-panel-1]">PHONE IN</a></li>
+<header>
+   <!-- <div class="log-header">
+        <h1><a href="/">SuperProduct</a> </h1>
+    </div>
+    <div class="log-re">
+        <button type="button" class="am-btn am-btn-default am-radius log-button">注册</button>
+    </div>-->
+</header>
 
-            </ul>
-            <div class="am-tabs-bd">
-                <div data-tab-panel-0 class="am-tab-panel am-active">
-                    <form action="" class="am-form" method="post">
-                        <fieldset>
-                            <div class="am-form-group">
-                                <label for="doc-vld-name">User Name</label>
-                                <input type="text" id="doc-vld-name" minlength="3" name="username" placeholder="User ID" class="am-form-field" required/>
-                            </div>
-                            <div class="am-form-group">
-                                <label for="doc-vld-name">Password</label>
-                                <input type="password" id="doc-vld-name" minlength="3" name="password" placeholder="User Password" class="am-form-field" required/>
-                            </div>
-                            <!--<div class="am-form-group myapp-login-treaty"><label class="am-form-label"></label><label class="am-checkbox-inline"> <input type="checkbox" minchecked="2" maxchecked="4" required="">已同意使用条约 </label></div>-->
-                            <button class="myapp-login-button am-btn am-btn-secondary" type="submit">SIGN IN</button>
-                        </fieldset>
-                        <legend>Forgot Password?</legend>
-                    </form>
+<div class="log">
+    <div class="am-g">
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-8 am-u-sm-centered log-content">
+            <h1 class="log-title am-animation-slide-top">SuperProduct</h1>
+            <br>
+            <form action="" method="post" class="am-form" id="log-form">
+                <div class="am-input-group am-radius am-animation-slide-left">
+                    <input type="text" id="doc-vld-email-2-1" name="username" class="am-radius" data-validation-message="请输入正确的用户名" placeholder="用户名" required/>
+                    <span class="am-input-group-label log-icon am-radius"><i class="am-icon-user am-icon-sm am-icon-fw"></i></span>
                 </div>
-                <div data-tab-panel-1 class="am-tab-panel ">
-                    <form action="" class="am-form" method="post">
-                        <fieldset>
-                            <div class="am-form-group">
-                                <label for="doc-vld-name">Mobile Phone</label>
-                                <input type="text" id="doc-vld-name" minlength="3" name="username" placeholder="Number" class="am-form-field" required/>
-                            </div>
-                            <div class="am-form-group">
-                                <label for="doc-vld-name">Identifying Code</label>
-                                <input type="password" id="doc-vld-name" minlength="3" name="password" placeholder="Code" class="am-form-field" required/>
-                            </div>
-                            <!--<div class="am-form-group myapp-login-treaty"><label class="am-form-label"></label><label class="am-checkbox-inline"> <input type="checkbox"  minchecked="2" maxchecked="4" required="">已同意使用条约 </label></div>-->
-                            <button class="myapp-login-button am-btn am-btn-secondary" type="submit">SIGN IN</button>
-                        </fieldset>
-                        <legend>Forgot Password?</legend>
-                    </form>
+                <br>
+                <div class="am-input-group am-animation-slide-left log-animation-delay">
+                    <input type="password" name="password" class="am-form-field am-radius log-input" placeholder="密码" minlength="6" required>
+                    <span class="am-input-group-label log-icon am-radius"><i class="am-icon-lock am-icon-sm am-icon-fw"></i></span>
                 </div>
-
-            </div>
+                <br>
+                <button type="submit" class="am-btn am-btn-primary am-btn-block am-btn-lg am-radius am-animation-slide-bottom log-animation-delay">登 录</button>
+                <p class="am-animation-slide-bottom log-animation-delay"><a href="#">忘记密码?</a></p>
+                <div class="am-btn-group  am-animation-slide-bottom log-animation-delay-b">
+                    <p>使用第三方登录</p>
+                    <a href="#" class="am-btn am-btn-secondary am-btn-sm"><i class="am-icon-github am-icon-sm"></i> Github</a>
+                    <a href="#" class="am-btn am-btn-success am-btn-sm"><i class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>
+                </div>
+            </form>
         </div>
     </div>
+    <footer class="log-footer">
+        © 2017 AllMobilize, Inc. Licensed under MIT license.
+    </footer>
 </div>
+
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="js/jquery.min.js"></script>
+<script src="new-login/js/jquery.min.js"></script>
 <!--<![endif]-->
 <!--[if lte IE 8 ]>
-<script src="js/jquery.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="new-login/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
-<script src="js/amazeui.min.js"></script>
-<script src="js/app_l.js"></script>
+<script src="new-login/js/amazeui.min.js"></script>
+<script src="new-login/js/app.js"></script>
 </body>
 </html>

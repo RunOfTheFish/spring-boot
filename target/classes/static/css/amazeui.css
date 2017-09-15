@@ -610,6 +610,9 @@ select {
   width: device-width;
 }
 */
+.am-u-md-left{
+  float: left!important;
+}
 .am-scrollbar-measure {
   width: 100px;
   height: 100px;

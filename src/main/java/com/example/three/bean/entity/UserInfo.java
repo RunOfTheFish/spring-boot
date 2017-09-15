@@ -17,6 +17,9 @@ public class UserInfo extends BaseEntity<UserInfo> {
 	private String username;
 	//名称（昵称或者真实姓名，不同系统不同定义）
 	private String name;
+	//头像
+	@TableField("head_img")
+	private String headImg;
 	//密码;
 	@TableField("pass_word")
 	private String password;
@@ -84,6 +87,14 @@ public class UserInfo extends BaseEntity<UserInfo> {
 
 	public void setRoles(List<String> roles) {
 		this.roles = roles;
+	}
+
+	public String getHeadImg() {
+		return headImg;
+	}
+
+	public void setHeadImg(String headImg) {
+		this.headImg = headImg;
 	}
 
 	/**

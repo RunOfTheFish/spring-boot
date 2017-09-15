@@ -5,6 +5,7 @@
 		<id column="id" property="id" />
 		<result column="name" property="name" />
 		<result column="user_name" property="username" />
+		<result column="head_img" property="headImg" />
 		<result column="pass_word" property="password" />
 		<result column="salt" property="salt" />
 		<result column="state" property="state" />

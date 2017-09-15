@@ -8,6 +8,7 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
+import java.util.UUID;
 
 
 /**

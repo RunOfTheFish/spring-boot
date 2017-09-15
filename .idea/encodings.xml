@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/core.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/font-awesome.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/index.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/jquery.ui.plupload.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/menu.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/page" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/css/page.css" charset="GBK" />
@@ -27,16 +28,36 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-4.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/avatar-5.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bg.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bg1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/icons.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/image.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/inform.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/progress.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/rember.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/img/search.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/timg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/Moxie.swf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/Moxie.xap" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/amazeui.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/app.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/blockUI.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/charts" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.0.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.plupload.queue.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/static/js/pagination.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/plupload.full.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/zh_CN.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/css/amazeui.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/css/app.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/fonts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/i/app-icon72x72@2x.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/i/f10.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/i/favicon.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/js/amazeui.ie8polyfill.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/js/amazeui.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/js/app.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/new-login/js/jquery.min.js" charset="GBK" />
   </component>
 </project>
