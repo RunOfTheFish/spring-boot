@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.annotation.Resource;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -25,9 +26,9 @@ import java.util.List;
 @RequestMapping("/userInfo")
 public class UserInfoController {
 
-	@Autowired
+	@Resource
 	private UserInfoService userInfoService;
-	@Autowired
+	@Resource
 	private SysRoleService sysRoleService;
 
 	/**
@@ -35,7 +36,7 @@ public class UserInfoController {
 	 *
 	 * @return
 	 */
-	@RequiresPermissions("userInfo:view")
+	//@RequiresPermissions("userInfo:view")
 	@RequestMapping(value = "/userList", method = RequestMethod.GET)
 	public String userInfo(Page<UserInfo> page, Model model) {
 
@@ -48,7 +49,7 @@ public class UserInfoController {
 	 *
 	 * @return
 	 */
-	@RequiresPermissions("userInfo:add")
+	//@RequiresPermissions("userInfo:add")
 	@RequestMapping(value = "/userAdd", method = RequestMethod.GET)
 	public String userInfoAdd(Model model) {
 
@@ -93,7 +94,7 @@ public class UserInfoController {
 	 * @return
 	 */
 	@RequestMapping(value = "/userDel", method = RequestMethod.DELETE)
-	@RequiresPermissions("userInfo:del")
+	//@RequiresPermissions("userInfo:del")
 	public String userDel() {
 		return "userInfoDel";
 	}

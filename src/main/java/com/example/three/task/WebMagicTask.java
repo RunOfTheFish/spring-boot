@@ -13,11 +13,11 @@ import us.codecraft.webmagic.model.OOSpider;
 @Component
 public class WebMagicTask {
 
-	@Scheduled(cron = "0 0/1 * * * ?")
+	/*@Scheduled(cron = "0 0/1 * * * ?")
 	public void statusCheck() {
 		System.out.println("爬虫定时器开始");
 		OOSpider.create(Site.me().setSleepTime(1000)
 				, new ConsolePageModelPipeline(), ArticleMagic.class)
 				.addUrl("http://www.oschina.net/question/tag/java").thread(5).run();
-	}
+	}*/
 }
