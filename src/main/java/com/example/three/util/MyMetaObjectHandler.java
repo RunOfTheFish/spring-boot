@@ -8,7 +8,6 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
-import java.util.UUID;
 
 
 /**
@@ -31,7 +30,11 @@ public class MyMetaObjectHandler extends MetaObjectHandler {
 		Object flag = metaObject.getValue("flag");
 
 		if (createBy == null) {
-			metaObject.setValue("createBy", String.valueOf(user.getId()));
+			if(user == null) {
+				metaObject.setValue("createBy", "api");
+			}else {
+				metaObject.setValue("createBy", String.valueOf(user.getId()));
+			}
 		}
 		if (createTime == null) {
 			metaObject.setValue("createTime", new Date());
@@ -48,7 +51,12 @@ public class MyMetaObjectHandler extends MetaObjectHandler {
 		Subject currentUser = SecurityUtils.getSubject();
 		UserInfo user = (UserInfo) currentUser.getPrincipal();
 
-		metaObject.setValue("updateBy", String.valueOf(user.getId()));
+		if(user == null) {
+			metaObject.setValue("updateBy", "api");
+		}else {
+			metaObject.setValue("updateBy", String.valueOf(user.getId()));
+		}
+
 		metaObject.setValue("updateTime", new Date());
 	}
 

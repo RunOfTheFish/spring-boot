@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.three.mapper.ImpowerMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.three.bean.entity.Impower">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="product_type" property="productType"/>
+        <result column="receive_info" property="receiveInfo"/>
+        <result column="physical_address" property="physicalAddress"/>
+        <result column="disk_address" property="diskAddress"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="burn_num" property="burnNum"/>
+        <result column="state" property="state"/>
+        <result column="create_by" property="createBy"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_by" property="updateBy"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="flag" property="flag"/>
+        <result column="key" property="key"/>
+        <result column="public_key" property="publicKey"/>
+        <result column="private_key" property="privateKey"/>
+        <result column="send_info" property="sendInfo"/>
+        <result column="auth_info" property="authInfo"/>
+    </resultMap>
+
+    <select id="selectPage" resultMap="BaseResultMap">
+		select
+		*
+		from
+		impower
+		where
+		flag = '1'
+	</select>
+
+</mapper>
