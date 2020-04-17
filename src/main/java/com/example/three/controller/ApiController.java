@@ -1,6 +1,8 @@
 package com.example.three.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.example.three.auth.anno.Logical;
+import com.example.three.auth.anno.ProductPermissions;
 import com.example.three.bean.model.Response;
 import com.example.three.service.ImpowerService;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,13 @@ public class ApiController {
     public String auth(@RequestParam("data") String data) {
         Response response = impowerService.apiAuth(data);
         return JSON.toJSONString(response);
+    }
+
+    @RequestMapping(value = "test", method = RequestMethod.GET)
+    @ResponseBody
+    @ProductPermissions(value = {"user:del", "user:add", "user:update"}, logical = Logical.AND)
+    public String test() {
+        return "哈哈哈";
     }
 
 }
