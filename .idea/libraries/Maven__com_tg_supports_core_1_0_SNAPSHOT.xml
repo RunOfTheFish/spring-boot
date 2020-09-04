@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tg:supports-core:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tg/supports-core/1.0-SNAPSHOT/supports-core-1.0-20191219.033112-12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tg/supports-core/1.0-SNAPSHOT/supports-core-1.0-20191219.033112-12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tg/supports-core/1.0-SNAPSHOT/supports-core-1.0-20191219.033112-12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

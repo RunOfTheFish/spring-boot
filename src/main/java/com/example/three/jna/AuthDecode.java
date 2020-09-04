@@ -25,5 +25,9 @@ public interface AuthDecode extends Library {
     AuthDecode INSTANCE = (AuthDecode) Native.loadLibrary("AuthDecode", AuthDecode.class);
     //链接库中对应的方法
     String decode(String data);
+    // 授权信息组合
+    String packageKeyInfo(String one, String two, String three);
+    // 离线版解密
+    String offLineDecode(String one, String two, String three);
 
 }

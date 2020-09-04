@@ -25,5 +25,9 @@ public interface AuthEncrypt extends Library {
     AuthEncrypt INSTANCE = (AuthEncrypt) Native.loadLibrary("AuthEncrypt", AuthEncrypt.class);
     //链接库中对应的方法
     String encrypt(String one, String two);
+    // 替换加密
+    String replaceEncrypt(String one);
+    // 签名
+    String signature(String one, String two);
 
 }

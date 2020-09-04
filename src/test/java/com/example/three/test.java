@@ -6,6 +6,7 @@ import com.sun.jna.Pointer;
 import com.sun.jna.ptr.ByteByReference;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 
 /**
  * Created by admin on 2017/8/17.
@@ -57,7 +58,7 @@ public class test {
 		}
 	}, time, 1000 * 60 * 60 * 24);*/
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
+    /*public static void main(String[] args) throws UnsupportedEncodingException {
         System.setProperty("jna.library.path", "D:\\dll");
         System.setProperty("jna.debug_load", "true");
         System.setProperty("jna.encoding", "GBK");
@@ -76,6 +77,31 @@ public class test {
 
         System.out.println(result);
 
+    }*/
+    private static double PI = Math.PI;
+    private static double X_PI = PI * 3000.0 / 180.0;
+
+    public static void main(String[] args) {
+        double lon = 112.96782436211265;
+        double lat = 28.338648895583457;
+
+        double[] aa = gcj2BD09(lat, lon);
+
+        Arrays.stream(aa).forEach(x -> {
+            System.out.println(x);
+        });
+
+    }
+
+    public static double[] gcj2BD09(double glat, double glon) {
+        double x = glon;
+        double y = glat;
+        double[] latlon = new double[2];
+        double z = Math.sqrt(x * x + y * y) + 0.00002 * Math.sin(y * X_PI);
+        double theta = Math.atan2(y, x) + 0.000003 * Math.cos(x * X_PI);
+        latlon[0] = z * Math.sin(theta) + 0.006;
+        latlon[1] = z * Math.cos(theta) + 0.0065;
+        return latlon;
     }
 
 }

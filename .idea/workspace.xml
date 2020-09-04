@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="370167e1-e9ff-4e0b-9673-ff531ce99912" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/auth/anno/Logical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/auth/anno/ProductPermissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/auth/aspect/ProductPermissionsAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/auth/cache/ProductPermissionsCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/exception/UnauthorizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/task/StartConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tg_supports_common_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tg_supports_core_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_microutils_kotlin_logging_1_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/three/jna/AuthResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/three/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/three/IdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/three/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/three/QTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/three/RsaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/three/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/three/controller/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/three/util/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/three/util/MyShiroRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/three/util/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/three/util/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-boot.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/three/controller/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/three/controller/ApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/three/util/MyShiroRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/three/util/MyShiroRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/three/util/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/three/util/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/spring-boot.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/three/LambdaTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/three/LambdaTest$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/three/LambdaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/three/LambdaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/three/jna/AuthDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/three/jna/AuthDecode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/three/jna/AuthEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/three/jna/AuthEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/three/JnaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/three/JnaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/three/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/three/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/three/jna/AuthDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/three/jna/AuthDecode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/three/jna/AuthEncrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/three/jna/AuthEncrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/three/JnaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/three/JnaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/three/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/three/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +62,6 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="G:\my_product\my-spring-boot-three\exportToHTML" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="my-spring-boot-three" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +92,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -88,12 +104,13 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/dll/Client.dll" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/HTSS-QY" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -103,15 +120,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myFile\spring-boot\src\test\java\com\example\three" />
       <recent name="E:\myFile\spring-boot\src\main\resources\win32-x86-64" />
       <recent name="D:\my-demo\spring-boot\sql" />
       <recent name="G:\my_product\my-spring-boot-three\src\main\resources\static\img" />
       <recent name="G:\my_product\my-spring-boot-three\src\main\resources\static\file\image" />
-      <recent name="G:\my_product\my-spring-boot-three\src\main\resources\static\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.three.jna" />
@@ -123,7 +140,7 @@
       <recent name="G:\my_product\my-spring-boot-three\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MySpringBootThreeApplication">
+  <component name="RunManager" selected="Application.test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -172,6 +189,34 @@
       <module />
       <method />
     </configuration>
+    <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.three.FunctionTest" />
+      <module name="spring-boot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.three.IdTest" />
+      <module name="spring-boot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JnaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.three.JnaTest" />
       <module name="spring-boot" />
@@ -186,27 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.three.LambdaTest" />
+    <configuration name="RsaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.three.RsaTest" />
       <module name="spring-boot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.three.util.MyProcessor" />
-      <module name="my-spring-boot-three" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.three.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,23 +282,6 @@
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
-    </configuration>
-    <configuration name="MySpringBootThreeApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.three" />
-      <option name="MAIN_CLASS_NAME" value="com.example.three.MySpringBootThreeApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -315,34 +329,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.spring-boot" />
-      <item itemvalue="Application.MyProcessor" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.JnaTest" />
-      <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="JUnit.MySpringBootThreeApplicationTests.contextLoads" />
+      <item itemvalue="Application.RsaTest" />
+      <item itemvalue="Application.FunctionTest" />
+      <item itemvalue="Application.IdTest" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Spring Boot.MySpringBootThreeApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.JnaTest" />
         <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.MySpringBootThreeApplicationTests.contextLoads" />
-        <item itemvalue="Application.MyProcessor" />
+        <item itemvalue="Application.JnaTest" />
+        <item itemvalue="Application.RsaTest" />
+        <item itemvalue="Application.IdTest" />
+        <item itemvalue="Application.FunctionTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\admin\AppData\Roaming\Subversion</configuration>
@@ -419,11 +421,46 @@
       <workItem from="1587000724826" duration="9841000" />
       <workItem from="1587085500615" duration="1296000" />
       <workItem from="1587087250141" duration="5506000" />
+      <workItem from="1587343912948" duration="1259000" />
+      <workItem from="1587347887765" duration="7232000" />
+      <workItem from="1587431951799" duration="3607000" />
+      <workItem from="1587603438037" duration="10309000" />
+      <workItem from="1587690143873" duration="5009000" />
+      <workItem from="1587863527870" duration="5716000" />
+      <workItem from="1589787638160" duration="1902000" />
+      <workItem from="1589850207125" duration="693000" />
+      <workItem from="1594975018844" duration="1726000" />
+      <workItem from="1595212441065" duration="5083000" />
+      <workItem from="1595293896860" duration="246000" />
+      <workItem from="1597988424970" duration="1253000" />
+      <workItem from="1598231356225" duration="414000" />
+      <workItem from="1598410835566" duration="3588000" />
+      <workItem from="1598426356740" duration="1512000" />
+      <workItem from="1598516911878" duration="2109000" />
+      <workItem from="1598577776808" duration="3184000" />
+      <workItem from="1598924762007" duration="12000" />
+      <workItem from="1598924826245" duration="1663000" />
+      <workItem from="1599014551495" duration="6789000" />
+      <workItem from="1599098985660" duration="5287000" />
+      <workItem from="1599117268663" duration="698000" />
+      <workItem from="1599119258014" duration="2103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -434,131 +471,66 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="228" y="182" width="1163" height="741" key="#Project_Structure" timestamp="1585119611461">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599099797738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="228" y="182" key="#Project_Structure/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585119611461" />
-    <state x="101" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587023881929">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599099797738" />
+    <state width="996" height="466" key="DebuggerActiveHint" timestamp="1599100814981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="101" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587023881929" />
-    <state x="687" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585121591716">
+    <state width="996" height="466" key="DebuggerActiveHint/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599100814981" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599114398038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585121591716" />
-    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586938274087">
+    <state x="740" y="274" key="FileChooserDialogImpl/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599114398038" />
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586938274087" />
-    <state x="1208" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1587003769361">
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.0.center" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1208" y="244" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587003769361" />
-    <state x="688" y="379" width="543" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586847614873">
+    <state width="1877" height="259" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.0.center/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.0.left" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="379" width="543" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586847614873" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584429102218">
+    <state width="1877" height="259" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.0.left/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.0.right" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1584429102218" />
-    <state width="1064" height="595" key="DebuggerActiveHint" timestamp="1586938395871">
+    <state width="1877" height="259" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.0.right/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.1.bottom" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="595" key="DebuggerActiveHint/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586938395871" />
-    <state width="757" height="417" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1585299072973" />
-    <state x="694" y="281" key="EnvironmentVariablesDialog" timestamp="1586938279745">
+    <state width="1877" height="259" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.1.bottom/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.1.center" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="281" key="EnvironmentVariablesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586938279745" />
-    <state x="589" y="242" key="FileChooserDialogImpl" timestamp="1585119518273">
+    <state width="1877" height="259" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.1.center/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.1.left" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="242" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585119518273" />
-    <state width="1877" height="592" key="GridCell.Tab.0.bottom" timestamp="1587091540017">
+    <state width="1877" height="259" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.1.left/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state width="1877" height="228" key="GridCell.Tab.1.right" timestamp="1599117967248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540017" />
-    <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.0.center" timestamp="1587091540017">
+    <state width="1877" height="259" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594976750689" />
+    <state width="1877" height="228" key="GridCell.Tab.1.right/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1599117967248" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1598231451850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540017" />
-    <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.0.left" timestamp="1587091540017">
+    <state x="461" y="164" key="SettingsEditor/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598231451850" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598517278650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540017" />
-    <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.0.right" timestamp="1587091540017">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540017" />
-    <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.1.bottom" timestamp="1587091540018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540018" />
-    <state width="1323" height="570" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585446587054" />
-    <state width="1877" height="592" key="GridCell.Tab.1.center" timestamp="1587091540018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540018" />
-    <state width="1323" height="570" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.1.left" timestamp="1587091540018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540018" />
-    <state width="1323" height="570" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585446587053" />
-    <state width="1877" height="592" key="GridCell.Tab.1.right" timestamp="1587091540018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540018" />
-    <state width="1323" height="570" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585446587054" />
-    <state width="1877" height="592" key="GridCell.Tab.2.bottom" timestamp="1587091540020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.2.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540020" />
-    <state width="1877" height="592" key="GridCell.Tab.2.center" timestamp="1587091540020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.2.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540020" />
-    <state width="1877" height="592" key="GridCell.Tab.2.left" timestamp="1587091540019">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.2.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540019" />
-    <state width="1877" height="592" key="GridCell.Tab.2.right" timestamp="1587091540020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="592" key="GridCell.Tab.2.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587091540020" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585113768759">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585113768759" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583996811232">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583996811232" />
-    <state x="737" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585121575125">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="737" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585121575125" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586920491603">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586920491603" />
-    <state x="636" y="258" width="786" height="600" key="find.popup" timestamp="1587088878819">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="636" y="258" width="786" height="600" key="find.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587088878819" />
-    <state x="334" y="222" key="new project wizard" timestamp="1584063263346">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="222" key="new project wizard/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1584063263346" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1586853395017">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586853395017" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1366.203.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598517278650" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,7 +550,17 @@
           <line>67</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/three/JsonTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="authIfo.data.get(1)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
